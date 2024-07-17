@@ -14,4 +14,10 @@ Bash script for batch submission of cox1 barcodes to [BOLDigger2](https://github
 
 
 ## BOLDigger2 multi-fasta prep script (1_BD2_prep.py)
+Prepares multi-fasta file containing cox1 sequences for submisison to BOLDigger2 by cleaning sequence headers, removing  headers if no sequence present, and converting invald characters to 'Ns'
+
+**Usage:**
+**python 1_BD2_prep.py [/path/to/input.fasta] [output.fasta]**
+- **/path/to/input.fasta** = path to directory with multi-fasta file containing cox1 sequences.
+- **output.fasta** = user-specified name of output fasta file. Will be output to same directory as input fasta file.
 
